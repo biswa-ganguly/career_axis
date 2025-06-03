@@ -11,7 +11,7 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { Calendar, CircleEllipsisIcon, Home, Inbox, Layers, Receipt, Search, Settings, User, Wallet } from "lucide-react"
+import { Calendar, CircleEllipsisIcon, Layers, User, Wallet } from "lucide-react"
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Tooltip } from '@radix-ui/react-tooltip'
