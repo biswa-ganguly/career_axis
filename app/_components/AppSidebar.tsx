@@ -11,35 +11,36 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Calendar, CircleEllipsisIcon, Home, Inbox, Layers, Receipt, Search, Settings, User, Wallet } from "lucide-react"
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
+import { Tooltip } from '@radix-ui/react-tooltip'
 
 const items = [
     {
-        title: "Home",
+        title: "Workshop",
         url: "#",
-        icon: Home,
+        icon: Layers,
     },
     {
-        title: "Inbox",
+        title: "AI Tools",
         url: "#",
-        icon: Inbox,
+        icon: CircleEllipsisIcon,
     },
     {
-        title: "Calendar",
+        title: "My History",
         url: "#",
         icon: Calendar,
     },
     {
-        title: "Search",
+        title: "Billing",
         url: "#",
-        icon: Search,
+        icon: Wallet,
     },
     {
-        title: "Settings",
+        title: "Profile",
         url: "#",
-        icon: Settings,
+        icon: User,
     },
 ]
 
@@ -49,9 +50,9 @@ export function AppSidebar() {
         <Sidebar>
             <SidebarHeader>
                 <div className='p-4'>
-                    <Image src={'./logo.svg'} alt='logo' width={100} height={100}
-                        className='w-full h-full' />
-                    <h2 className='text-sm text-gray-400 text-center'>Build Awesome</h2>
+                    <Image src={'/logo2.png'} alt='logo' width={50} height={0}
+                        className='w-full ' />
+                    <h2 className='text-sm font-mono mt-2 text-gray-400 text-center'>Navigate Your Future.</h2>
                 </div>
             </SidebarHeader>
             <SidebarContent>
