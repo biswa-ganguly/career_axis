@@ -15,6 +15,7 @@ import { Calendar, CircleEllipsisIcon, Layers, User, Wallet } from "lucide-react
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Tooltip } from '@radix-ui/react-tooltip'
+import { UserButton } from '@clerk/nextjs'
 
 const items = [
     {
@@ -76,7 +77,7 @@ export function AppSidebar() {
                 </SidebarGroup>
             </SidebarContent>
             <SidebarFooter>
-                <h2 className='p-2 text-gray-400 text-sm'>Copyright @Tubeguruji</h2>
+                <UserButton/>
             </SidebarFooter>
         </Sidebar>
     )

@@ -3,7 +3,7 @@ import WelcomeBanner from './_components/WelcomeBanner'
 
 function Dashboard() {
     return (
-        <div>
+        <div className=''>
             <WelcomeBanner/>
         </div>
     )
