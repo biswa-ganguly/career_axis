@@ -18,7 +18,7 @@ function DashboardProvider({
             <main className='w-full '>
                 <AppHeader />
                 {/* <SidebarTrigger /> */}
-                <div className='p-10'>{children}</div>
+                <div className='lg:p-5 px-2 '>{children}</div>
             </main>
         </SidebarProvider>
 
