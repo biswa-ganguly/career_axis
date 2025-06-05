@@ -54,15 +54,15 @@ const item = {
 
 function AiTools() {
   return (
-    <div className="py-10 px-4 max-w-7xl mx-auto">
+    <div className="py-10  px-4 max-w-8xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="mb-6 text-center"
       >
-        <h2 className="text-3xl md:text-4xl text-[#0b2e4e] font-bold">Available AI Tools</h2>
-        <p className="text-gray-600 mt-2">
+        <h2 className="text-3xl md:text-4xl text-center lg:text-start text-[#0b2e4e] font-bold">Available AI Tools</h2>
+        <p className="text-gray-600 mt-2 text-center lg:text-start">
           Start Building and Shape Your Career with this exclusive AI Tools
         </p>
       </motion.div>
