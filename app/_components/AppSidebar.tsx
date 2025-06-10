@@ -25,22 +25,22 @@ const items = [
     },
     {
         title: "AI Tools",
-        url: "#",
+        url: "/tools",
         icon: CircleEllipsisIcon,
     },
     {
         title: "My History",
-        url: "#",
+        url: "/history",
         icon: Calendar,
     },
     {
         title: "Billing",
-        url: "#",
+        url: "/billing",
         icon: Wallet,
     },
     {
         title: "Profile",
-        url: "#",
+        url: "/profile",
         icon: User,
     },
 ]
