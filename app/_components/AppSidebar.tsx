@@ -25,7 +25,7 @@ const items = [
     },
     {
         title: "AI Tools",
-        url: "/tools",
+        url: "/ai-tools",
         icon: CircleEllipsisIcon,
     },
     {
